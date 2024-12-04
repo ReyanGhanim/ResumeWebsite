@@ -26,9 +26,9 @@ function App() {
       />
       <main className="relative z-10 flex flex-col justify-between h-full p-8 text-white bg-transparent">
         <div>
-          <h1 className="text-5xl font-bold max-md:text-4xl">Reed Graff</h1>
+          <h1 className="text-5xl font-bold max-md:text-4xl">Reyan Ghanim</h1>
           <p className="mt-5 text-base">
-            I'm the CTO of Compliancy. We help roofers pull permits faster, and we're hiring!<br/>Reed [at] withcompliancy [dot] com
+            Hi! I'm Reyan Ghanim - an engineering student at UT Austin! <br/>reyanghanim@utexas.edu
           </p>
         </div>
         <SocialLinks />
@@ -174,10 +174,10 @@ function STLViewer({ url, className, isMobile }) {
 export default App;
 
 const socialLinks = [
-  { url: 'mailto:Rangergraff@gmail.com', label: 'Rangergraff@gmail.com' },
-  { url: 'https://withcompliancy.com/', label: 'Company Website' },
-  { url: 'https://www.linkedin.com/in/reedgraff/', label: 'LinkedIn Profile' },
-  { url: 'https://github.com/ReedGraff', label: 'GitHub Profile' }
+  { url: 'mailto:reyanghanim@utexas.edu', label: 'reyanghanim@utexas.edu' },
+  { url: 'https://reyanghanim.blogspot.com/', label: 'Blog' },
+  { url: 'https://www.linkedin.com/in/ghanimutexas/', label: 'LinkedIn Profile' },
+  { url: 'https://github.com/reyanghanim', label: 'GitHub Profile' }
 ];
 
 function SocialLinks() {
