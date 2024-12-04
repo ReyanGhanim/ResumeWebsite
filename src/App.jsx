@@ -30,7 +30,7 @@ function App() {
         <div>
           <h1 className="text-5xl font-bold max-md:text-4xl">Reyan Ghanim</h1>
           <p className="mt-5 text-base">
-            Hi! I'm Reyan Ghanim - an engineering student at UT Austin! Check out my LinkedIn, GitHub, or blog, where I post project updates.<br/>
+            Hi! I'm Reyan Ghanim - an engineering student at UT Austin. Check out my LinkedIn, GitHub, or blog, where I post project updates.<br/>
           </p>
         </div>
         <SocialLinks />
