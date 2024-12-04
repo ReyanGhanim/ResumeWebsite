@@ -18,7 +18,9 @@ function App() {
   }, []);
 
   return (
+    
     <div className="relative h-screen w-screen overflow-hidden bg-[#140b29]">
+      <meta name="google-site-verification" content="naZljTUzNrexPTOlcf0fstimOe92_iuGV0j8lMRkf_4" />
       <STLViewer 
         url="3DBenchy.stl" 
         className="absolute inset-0 w-full h-full"
