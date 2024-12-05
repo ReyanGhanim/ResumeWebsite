@@ -7,6 +7,8 @@ import { randInt } from 'three/src/math/MathUtils.js';
 
 function App() {
   const [isMobile, setIsMobile] = useState(false);
+  const [randomFile, setRandomFile] = useState('');
+
 
   useEffect(() => {
     const stlFiles = ['Boat.stl', 'Longhorn.stl', 'Rocktopus.stl', 'AmongUs.stl'];
