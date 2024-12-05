@@ -9,6 +9,12 @@ function App() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    const stlFiles = ['Boat.stl', 'Longhorn.stl', 'Rocktopus.stl', 'AmongUs.stl'];
+    
+    // Select a random STL file
+    const selectedFile = stlFiles[Math.floor(Math.random() * stlFiles.length)];
+    setRandomFile(selectedFile);
+
     const checkMobile = () => {
       setIsMobile(window.innerWidth <= 768);
     };
@@ -21,11 +27,13 @@ function App() {
     
     <div className="relative h-screen w-screen overflow-hidden bg-[#140b29]">
       <meta name="google-site-verification" content="naZljTUzNrexPTOlcf0fstimOe92_iuGV0j8lMRkf_4" />
-      <STLViewer 
-        url="3DBenchy.stl" 
-        className="absolute inset-0 w-full h-full"
-        isMobile={isMobile}
-      />
+      {randomFile && (
+        <STLViewer 
+          url={randomFile} 
+          className="absolute inset-0 w-full h-full"
+          isMobile={isMobile}
+        />
+      )}
       <main className="relative z-10 flex flex-col justify-between h-full p-8 text-white bg-transparent">
         <div>
           <h1 className="text-5xl font-bold max-md:text-4xl">Reyan Ghanim</h1>
