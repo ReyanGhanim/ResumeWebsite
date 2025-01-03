@@ -11,7 +11,7 @@ function App() {
 
 
   useEffect(() => {
-    const stlFiles = ['Boat.stl', 'Longhorn.stl', 'Rocktopus.stl', 'AmongUs.stl', 'Octo-Rocktopus.stl'];
+    const stlFiles = ['Boat.stl', 'Longhorn.stl', 'Rocktopus.stl', 'AmongUs.stl', 'Octo-Rocktopus.stl', "chill_guy"];
     
     // Select a random STL file
     const selectedFile = stlFiles[Math.floor(Math.random() * stlFiles.length)];
